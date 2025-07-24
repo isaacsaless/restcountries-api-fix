@@ -1,8 +1,10 @@
 import Fastify from 'fastify';
+import fastifyCors from '@fastify/cors';
 import getFixRestCountries from './routes/fix-restcountries';
 
 const app = Fastify();
 
+app.register(fastifyCors, {origin: "*"});
 app.register(getFixRestCountries);
 
 app.listen({ port: 3000, host:'0.0.0.0' }, (err, address) => {
