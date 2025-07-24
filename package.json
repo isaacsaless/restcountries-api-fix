@@ -3,11 +3,12 @@
   "name": "restcountries-api-fix",
   "version": "1.0.0",
   "description": "API simples para mudar o formato como o RestCountries API recebe os dados.",
-  "main": "src/app.ts",
+  "main": "api/index.ts",
   "scripts": {
     "dev": "tsx watch src/app.ts",
     "start": "tsx src/app.ts",
-    "build": "tsc"
+    "build": "echo 'No build required for Vercel serverless functions'",
+    "vercel-build": "echo 'Vercel handles TypeScript compilation automatically'"
   },
   "keywords": [],
   "author": "isaacsaless",

@@ -1,0 +1,12 @@
+src/
+node_modules/
+.env
+.env.local
+.env.production
+.env.development
+README.md
+.git/
+.gitignore
+tsconfig.json
+Dockerfile
+LICENSE
