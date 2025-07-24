@@ -7,11 +7,11 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/api/index"
+      "destination": "/src/app.ts"
     },
     {
-      "source": "/fix-restcountries",
-      "destination": "/api/fix-restcountries"
+      "source": "/",
+      "destination": "/src/api/fix-restcountries"
     }
   ]
 }
