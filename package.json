@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "restcountries-api-fix",
+  "version": "1.0.0",
+  "description": "API simples para mudar o formato como o RestCountries API recebe os dados.",
+  "main": "src/app.ts",
+  "scripts": {
+    "dev": "tsx watch src/app.ts",
+    "start": "tsx src/app.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "isaacsaless",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "fastify": "^5.3.3",
+    "fastify-type-provider-zod": "^5.0.1",
+    "open-google-translator": "^1.0.5",
+    "undici": "^7.11.0",
+    "zod": "^3.25.61"
+  }
+}
